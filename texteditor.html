@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TEXT EDITOR</title>
+    <link rel="stylesheet" href="texteditor.css" />
+  </head>
+  <body>
+    <div class="box">
+      <button type="button" id="boldbtn" onclick="boldtext()">B</button
+      >&nbsp;&nbsp;
+      <label for="fonts"></label>
+      <select name="fonts" id="fonts" class="dropdownbtns" onclick="setFont()">
+        <option value="font1">Arial</option>
+        <option value="font2">Gill Sans</option>
+        <option value="font3">Times New Roman</option>
+        <option value="font4">Courier New</option>
+        <option value="font5">sans serif</option>
+        <option value="font6">Verdena</option>
+      </select>
+      <label for="fontsize"></label>
+      <select
+        name="fontsize"
+        id="fontsize"
+        class="dropdownbtns"
+        onclick="setFontSize()"
+      >
+        <option value="size1">28</option>
+        <option value="size2">26</option>
+        <option value="size3">24</option>
+        <option value="size4">22</option>
+        <option value="size5">20</option>
+        <option value="size6">18</option>
+        <option value="size7">16</option>
+        <option value="size8">14</option>
+        <option value="size9">12</option>
+        <option value="size10">10</option>
+      </select>
+      <label for="fontcolor"></label>
+      <select
+        name="fontcolor"
+        id="fontcolor"
+        class="dropdownbtns"
+        onclick="setColor()"
+      >
+        <option value="color1">Black</option>
+        <option value="color2">Blue</option>
+        <option value="color3">Purple</option>
+        <option value="color4">Deep Pink</option>
+        <option value="color5">Yellow Green</option>
+        <option value="color6">Green</option>
+        <option value="color7">Red</option>
+        <option value="color8">Brown</option>
+        <option value="color9">Orange</option>
+        <option value="color10">Dark Cyan</option></select
+      ><br />
+      <br />
+      <textarea rows="31" cols="80" id="text"> </textarea>
+    </div>
+  </body>
+  <script src="texteditor.js"></script>
+</html>

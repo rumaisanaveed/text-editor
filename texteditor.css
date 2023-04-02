@@ -1,0 +1,91 @@
+/* Default styling for desktop screens */
+body {
+    background-color: rgb(12, 87, 116);
+  }
+  .box {
+    width: 650px;
+    height: 600px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: whitesmoke;
+    border-radius: 10px;
+  }
+  #boldbtn {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: whitesmoke;
+    color: #000000;
+    margin-left: 120px;
+    margin-top: 20px;
+    border: 1px solid black;
+    width: 40px;
+    height: 40px;
+  }
+  .dropdownbtns {
+    width: 50px;
+    height: 40px;
+    background-color: whitesmoke;
+    color: black;
+    border: 1px solid black;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+  }
+  #fonts {
+    width: 150px;
+  }
+  #fontcolor {
+    width: 90px;
+  }
+  textarea {
+    margin-left: 20px;
+    background-color: whitesmoke;
+    color: black;
+    border: 2px solid black;
+    border-radius: 3px;
+    padding-top: 20px;
+    padding-left: 5px;
+    font-size: 14px;
+    height: 470px;
+    width: 600px;
+    resize: none;
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    .box {
+      width: 100%;
+      height: auto;
+      margin: 0;
+      position: relative;
+      border-radius: 0;
+    }
+    #boldbtn {
+      margin-left: 0;
+    }
+    .dropdownbtns {
+      margin-left: 0;
+      margin-bottom: 10px;
+    }
+    #fonts {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    #fontcolor {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    textarea {
+      margin: 0;
+      height: 300px;
+      width: 100%;
+      font-size: 16px;
+    }
+  }
+  
